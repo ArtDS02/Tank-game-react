@@ -1,9 +1,12 @@
 .tank{
   width: 100px;
   height: 100px;
-  background-color: lightblue;
 }
 
 .map{
   background-image: url("./img/map1.jpg");
+}
+
+.enemy{
+  background-image: url("./img/ghost1.png");
 }

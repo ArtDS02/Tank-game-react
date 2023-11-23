@@ -1,10 +1,14 @@
 import React from 'react';
-import SquareBox from './component/Tank.js';
+import Tank from './component/Tank.js';
+import BulletComponent from './component/Tank.js';
+import Enemy from './component/Enemy.js';
+
 
 const App = () => {
   return (
     <div className='map' style={{height:"739px"}}>
-      <SquareBox />
+      <Tank />
+      <Enemy />
     </div>
   );
 };
